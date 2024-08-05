@@ -1,4 +1,4 @@
-package br.com.pet.cliente_pet;
+package br.com.pet.clientepet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
