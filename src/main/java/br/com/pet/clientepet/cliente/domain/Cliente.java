@@ -49,7 +49,7 @@ public class Cliente {
 
 
 	public Cliente(ClienteRequest clienteRequest) {
-		this.nomeCompleto = clienteRequest.getNomeCompleto()
+		this.nomeCompleto = clienteRequest.getNomeCompleto();
 		this.email = clienteRequest.getEmail();
 		this.celular = clienteRequest.getCelular();
 		this.telefone = clienteRequest.getTelefone();
