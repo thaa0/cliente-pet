@@ -1,5 +1,6 @@
 package br.com.pet.clientepet.pet.application.api;
 
+import java.util.List;
 import java.util.UUID;
 
 import javax.validation.Valid;
@@ -23,5 +24,13 @@ public class PetController implements petAPI {
 		PetResponse pet = petService.criaPet(idCliente,petRequest);
 		log.info("[Finaliza] PetController - postPet");
 		return pet;
+	}
+
+	@Override
+	public List<PetClienteListResponse> getTodosPetsdoCliente(UUID idCliente) {
+		log.info("[Inicia] PetController - getTodosPetsdoIdCiente");
+		log.info("[idCliente] + {}", idCliente);
+		log.info("[Finaliza] PetController - getTodosPetsdoIdCiente");
+		return null;
 	}
 }
