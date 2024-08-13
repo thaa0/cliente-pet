@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
 @Entity
-public class pet {
+public class Pet {
 	@Id
 	@GeneratedValue(strategy= GenerationType.AUTO)
 	@Column(columnDefinition = "uuid",name="id", updatable = false, unique = true,nullable = false)
