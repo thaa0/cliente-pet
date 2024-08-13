@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import br.com.pet.clientepet.cliente.application.service.ClienteService;
 import br.com.pet.clientepet.pet.application.api.PetRequest;
 import br.com.pet.clientepet.pet.application.api.PetResponse;
+import br.com.pet.clientepet.pet.application.repository.PetRepository;
 import br.com.pet.clientepet.pet.domain.Pet;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
