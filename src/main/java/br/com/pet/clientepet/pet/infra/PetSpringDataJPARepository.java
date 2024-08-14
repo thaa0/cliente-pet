@@ -8,5 +8,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import br.com.pet.clientepet.pet.domain.Pet;
 
 public interface PetSpringDataJPARepository extends JpaRepository<Pet, UUID> {
-	List<Pet> findByIdClienteTuto(UUID idClienteTutor);
+	List<Pet> findByIdClienteTutor(UUID idClienteTutor);
 }
