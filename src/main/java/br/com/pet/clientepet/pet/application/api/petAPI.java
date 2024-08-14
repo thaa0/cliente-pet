@@ -33,5 +33,5 @@ public interface petAPI {
 
 	@DeleteMapping(value="/{idPet}")
 	@ResponseStatus(code = HttpStatus.NO_CONTENT)
-	PetClienteDetalhaResponse DeletePetdoCliente(@PathVariable UUID idCliente, @PathVariable UUID idPet);
+	void DeletePetdoCliente(@PathVariable UUID idCliente, @PathVariable UUID idPet);
 }
