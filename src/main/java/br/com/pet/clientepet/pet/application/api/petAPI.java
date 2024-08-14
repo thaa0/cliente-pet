@@ -25,4 +25,8 @@ public interface petAPI {
 	@GetMapping
 	@ResponseStatus(code = HttpStatus.OK)
 	List<PetClienteListResponse> getTodosPetsdoCliente(@PathVariable UUID idCliente);
+
+	@GetMapping(value="/{idPet}")
+	@ResponseStatus(code = HttpStatus.OK)
+	PetClienteDetalhaResponse getPetdoCliente(@PathVariable UUID idCliente, @PathVariable UUID idPet);
 }
