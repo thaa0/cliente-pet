@@ -59,7 +59,7 @@ public class PetController implements petAPI {
 		log.info("[Inicia] PetController - alteraPetdoCliente");
 		log.info("[idCliente] + {}", idCliente);
 		log.info("[idPet] + {}", idPet);
-		log.info("[Finaliza] PetController - alteraPetdoCliente");
-		
+		petService.alteraPetDoCliente(idCliente, idPet, petAlteracaoRequest);
+		log.info("[Finaliza] PetController - alteraPetdoCliente");		
 	}
 }
